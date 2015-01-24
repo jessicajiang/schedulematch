@@ -10,11 +10,11 @@
 		3BA96E461A7455F50058A869 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA96E451A7455F50058A869 /* main.m */; };
 		3BA96E491A7455F50058A869 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA96E481A7455F50058A869 /* AppDelegate.m */; };
 		3BA96E4C1A7455F50058A869 /* ScheduleMatch.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3BA96E4A1A7455F50058A869 /* ScheduleMatch.xcdatamodeld */; };
-		3BA96E4F1A7455F50058A869 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA96E4E1A7455F50058A869 /* ViewController.m */; };
 		3BA96E521A7455F50058A869 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BA96E501A7455F50058A869 /* Main.storyboard */; };
 		3BA96E541A7455F50058A869 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BA96E531A7455F50058A869 /* Images.xcassets */; };
 		3BA96E571A7455F50058A869 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BA96E551A7455F50058A869 /* LaunchScreen.xib */; };
 		3BA96E631A7455F50058A869 /* ScheduleMatchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA96E621A7455F50058A869 /* ScheduleMatchTests.m */; };
+		62C4859C1A7462DE00586D41 /* TabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C4859B1A7462DE00586D41 /* TabViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +34,14 @@
 		3BA96E471A7455F50058A869 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3BA96E481A7455F50058A869 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3BA96E4B1A7455F50058A869 /* ScheduleMatch.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ScheduleMatch.xcdatamodel; sourceTree = "<group>"; };
-		3BA96E4D1A7455F50058A869 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3BA96E4E1A7455F50058A869 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3BA96E511A7455F50058A869 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3BA96E531A7455F50058A869 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3BA96E561A7455F50058A869 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		3BA96E5C1A7455F50058A869 /* ScheduleMatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScheduleMatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BA96E611A7455F50058A869 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BA96E621A7455F50058A869 /* ScheduleMatchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScheduleMatchTests.m; sourceTree = "<group>"; };
+		62C4859A1A7462DE00586D41 /* TabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabViewController.h; sourceTree = "<group>"; };
+		62C4859B1A7462DE00586D41 /* TabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,8 +85,8 @@
 			children = (
 				3BA96E471A7455F50058A869 /* AppDelegate.h */,
 				3BA96E481A7455F50058A869 /* AppDelegate.m */,
-				3BA96E4D1A7455F50058A869 /* ViewController.h */,
-				3BA96E4E1A7455F50058A869 /* ViewController.m */,
+				62C4859A1A7462DE00586D41 /* TabViewController.h */,
+				62C4859B1A7462DE00586D41 /* TabViewController.m */,
 				3BA96E501A7455F50058A869 /* Main.storyboard */,
 				3BA96E531A7455F50058A869 /* Images.xcassets */,
 				3BA96E551A7455F50058A869 /* LaunchScreen.xib */,
@@ -222,9 +222,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62C4859C1A7462DE00586D41 /* TabViewController.m in Sources */,
 				3BA96E4C1A7455F50058A869 /* ScheduleMatch.xcdatamodeld in Sources */,
 				3BA96E491A7455F50058A869 /* AppDelegate.m in Sources */,
-				3BA96E4F1A7455F50058A869 /* ViewController.m in Sources */,
 				3BA96E461A7455F50058A869 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +416,7 @@
 				3BA96E681A7455F50058A869 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3BA96E691A7455F50058A869 /* Build configuration list for PBXNativeTarget "ScheduleMatchTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +425,7 @@
 				3BA96E6B1A7455F50058A869 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
