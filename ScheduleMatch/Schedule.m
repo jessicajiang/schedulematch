@@ -10,4 +10,8 @@
 
 @implementation Schedule
 
+-(void) onEnter {
+    
+
+}
 @end

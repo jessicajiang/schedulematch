@@ -10,7 +10,12 @@
 
 @interface Schedule : NSObject
 
+@property (nonatomic, strong) NSString* startTimeString;
+@property (nonatomic, strong) NSString* endTimeString;
 @property (nonatomic, strong) NSString* title;
-@property (nonatomic, strong) NSString* content;
+@property (nonatomic, strong) NSString* location;
+@property (nonatomic, strong) NSDate* starts;
+@property (nonatomic, strong) NSDate* ends;
+
 
 @end

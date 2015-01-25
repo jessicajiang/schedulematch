@@ -1,5 +1,5 @@
 //
-//  DailySchedule.h
+//  CreateNewViewController.h
 //  ScheduleMatch
 //
 //  Created by Jessica Jiang on 1/25/15.
@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DailySchedule : UITableViewController
-//@property (nonatomic, strong) NSMutableArray* schedulelist;
-- (void) getIt;
+@interface CreateNewViewController : UIViewController
+@property (nonatomic, strong) NSMutableArray* TableScheduleList;
 @end

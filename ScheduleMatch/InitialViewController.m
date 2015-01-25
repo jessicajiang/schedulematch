@@ -59,6 +59,7 @@
             else {
                 NSLog(@"Successful Signup");
                 NSLog(@"%@",[fetchedData objectForKey:@"info"]);
+                [AppCommunication sharedCommunicator].username = self.username.text;
                 [self performSegueWithIdentifier:@"loginSuccessful" sender:self];
             }
 

@@ -53,6 +53,7 @@
             }
             else {
                 NSLog(@"Successful Signup");
+                [AppCommunication sharedCommunicator].username = self.newusername.text;
                 [self performSegueWithIdentifier:@"signUpSuccessful" sender:self];
             }
         });
