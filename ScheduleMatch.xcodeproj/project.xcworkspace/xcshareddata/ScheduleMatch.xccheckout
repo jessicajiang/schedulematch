@@ -10,29 +10,29 @@
 	<string>ScheduleMatch</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>1FACEEFEF1D4675AA24EC0D9BCE2A664ECD8E6DE</key>
+		<key>B3DEB6919F26C3312C536EC849692308F788384C</key>
 		<string>https://github.com/jessicajiang/schedulematch.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>ScheduleMatch/ScheduleMatch.xcodeproj</string>
+	<string>ScheduleMatch.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>1FACEEFEF1D4675AA24EC0D9BCE2A664ECD8E6DE</key>
-		<string>../../..</string>
+		<key>B3DEB6919F26C3312C536EC849692308F788384C</key>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/jessicajiang/schedulematch.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>1FACEEFEF1D4675AA24EC0D9BCE2A664ECD8E6DE</string>
+	<string>B3DEB6919F26C3312C536EC849692308F788384C</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>1FACEEFEF1D4675AA24EC0D9BCE2A664ECD8E6DE</string>
+			<string>B3DEB6919F26C3312C536EC849692308F788384C</string>
 			<key>IDESourceControlWCCName</key>
 			<string>ScheduleMatch</string>
 		</dict>

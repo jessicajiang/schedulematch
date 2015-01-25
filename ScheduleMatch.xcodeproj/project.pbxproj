@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B211FB41A74EC8F00BC4AFB /* DailySchedule.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B211FB31A74EC8F00BC4AFB /* DailySchedule.m */; };
+		3B211FB71A74ED1F00BC4AFB /* Schedule.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B211FB61A74ED1F00BC4AFB /* Schedule.m */; };
 		3BA96E461A7455F50058A869 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA96E451A7455F50058A869 /* main.m */; };
 		3BA96E491A7455F50058A869 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA96E481A7455F50058A869 /* AppDelegate.m */; };
 		3BA96E4C1A7455F50058A869 /* ScheduleMatch.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3BA96E4A1A7455F50058A869 /* ScheduleMatch.xcdatamodeld */; };
@@ -32,6 +34,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3B211FB21A74EC8F00BC4AFB /* DailySchedule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DailySchedule.h; sourceTree = "<group>"; };
+		3B211FB31A74EC8F00BC4AFB /* DailySchedule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DailySchedule.m; sourceTree = "<group>"; };
+		3B211FB51A74ED1F00BC4AFB /* Schedule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Schedule.h; sourceTree = "<group>"; };
+		3B211FB61A74ED1F00BC4AFB /* Schedule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Schedule.m; sourceTree = "<group>"; };
 		3BA96E401A7455F50058A869 /* ScheduleMatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScheduleMatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BA96E441A7455F50058A869 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BA96E451A7455F50058A869 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -99,6 +105,10 @@
 				3BA96E481A7455F50058A869 /* AppDelegate.m */,
 				3BA96E751A747FF80058A869 /* AppCommunication.h */,
 				3BA96E761A747FF80058A869 /* AppCommunication.m */,
+				3B211FB31A74EC8F00BC4AFB /* DailySchedule.m */,
+				3B211FB21A74EC8F00BC4AFB /* DailySchedule.h */,
+				3B211FB61A74ED1F00BC4AFB /* Schedule.m */,
+				3B211FB51A74ED1F00BC4AFB /* Schedule.h */,
 				62C4859A1A7462DE00586D41 /* TabViewController.h */,
 				62C4859B1A7462DE00586D41 /* TabViewController.m */,
 				3BA96E501A7455F50058A869 /* Main.storyboard */,
@@ -242,8 +252,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B211FB71A74ED1F00BC4AFB /* Schedule.m in Sources */,
 				62C4859C1A7462DE00586D41 /* TabViewController.m in Sources */,
 				3BA96E6E1A746DDF0058A869 /* SearchControllerViewController.m in Sources */,
+				3B211FB41A74EC8F00BC4AFB /* DailySchedule.m in Sources */,
 				3BA96E4C1A7455F50058A869 /* ScheduleMatch.xcdatamodeld in Sources */,
 				3BA96E711A74705F0058A869 /* InitialViewController.m in Sources */,
 				3BA96E771A747FF80058A869 /* AppCommunication.m in Sources */,

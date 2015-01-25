@@ -183,17 +183,8 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LGl-ST-7cj">
-                                <rect key="frame" x="333" y="200" width="217" height="65"/>
-                                <state key="normal" title="Sign Up Here">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="BD1-nM-rZC" kind="show" id="L0Z-aw-RFJ"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Don't have an account?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tDj-Ve-4S4">
-                                <rect key="frame" x="360" y="177" width="183" height="21"/>
+                                <rect key="frame" x="90" y="418" width="183" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -205,7 +196,15 @@
                                 </state>
                                 <connections>
                                     <action selector="loginPressed:" destination="jQw-jM-Wuk" eventType="touchUpInside" id="jbA-uX-4Wx"/>
-                                    <segue destination="9bH-K2-bUG" kind="show" id="7ly-o5-iZ3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LGl-ST-7cj">
+                                <rect key="frame" x="73" y="337" width="217" height="65"/>
+                                <state key="normal" title="Sign Up Here">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BD1-nM-rZC" kind="show" id="L0Z-aw-RFJ"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -214,11 +213,12 @@
                     <connections>
                         <outlet property="password" destination="aeA-m9-tva" id="n5E-d4-ITz"/>
                         <outlet property="username" destination="Caj-0W-LIF" id="obH-Ug-MH5"/>
+                        <segue destination="9bH-K2-bUG" kind="show" identifier="loginSuccessful" id="eVm-a0-dNE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NGt-dk-DVK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1839" y="-406"/>
+            <point key="canvasLocation" x="-1839" y="-468"/>
         </scene>
         <!--Sign Up View Controller-->
         <scene sceneID="Cf9-2Y-IWp">
@@ -239,24 +239,17 @@
                                 </state>
                                 <connections>
                                     <action selector="createAccount:" destination="BD1-nM-rZC" eventType="touchUpInside" id="9WV-g3-DyZ"/>
-                                    <segue destination="9bH-K2-bUG" kind="show" id="bHg-kM-54v"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GNe-UD-3Mh">
                                 <rect key="frame" x="142" y="176" width="128" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
-                                <connections>
-                                    <action selector="newusername:" destination="BD1-nM-rZC" eventType="editingDidEnd" id="KX1-Xu-GxU"/>
-                                </connections>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="B7c-4B-BJy">
                                 <rect key="frame" x="142" y="327" width="97" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
-                                <connections>
-                                    <action selector="newpassword:" destination="BD1-nM-rZC" eventType="editingDidEnd" id="sGB-sK-hFZ"/>
-                                </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="New Password:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F3W-7o-F9r">
                                 <rect key="frame" x="142" y="289" width="120" height="21"/>
@@ -276,11 +269,12 @@
                     <connections>
                         <outlet property="newpassword" destination="B7c-4B-BJy" id="bsB-Js-cgk"/>
                         <outlet property="newusername" destination="GNe-UD-3Mh" id="22X-0T-2J1"/>
+                        <segue destination="9bH-K2-bUG" kind="show" identifier="signUpSuccessful" id="7g9-gN-zB7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ntT-ns-DDg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1839" y="404"/>
+            <point key="canvasLocation" x="-1797" y="364"/>
         </scene>
         <!--Tab View Controller-->
         <scene sceneID="fB3-Nj-nxG">
@@ -323,6 +317,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="7ly-o5-iZ3"/>
+        <segue reference="eVm-a0-dNE"/>
     </inferredMetricsTieBreakers>
 </document>

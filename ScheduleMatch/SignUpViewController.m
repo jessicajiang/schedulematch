@@ -45,11 +45,21 @@
     
     [[AppCommunication sharedCommunicator] postRequest:latter withDictionary:input withCompletion:^(NSData *data, NSURLResponse *response, NSError *error) {
         dispatch_async(dispatch_get_main_queue(), ^{
-            NSLog(@"postrequest complete");
+            NSDictionary *fetchedData = [NSJSONSerialization JSONObjectWithData:data options:0 error:nil];
+            
+            if([[fetchedData objectForKey:@"successful" ] isEqualToString:@"no"]){
+                NSLog(@"%@ and %@", self.newusername.text, self.newpassword.text);
+                NSLog(@"%@",[fetchedData objectForKey:@"info"]);
+            }
+            else {
+                NSLog(@"Successful Signup");
+                [self performSegueWithIdentifier:@"signUpSuccessful" sender:self];
+            }
         });
     }];
-    
 }
+
+
 
 /*
 #pragma mark - Navigation
