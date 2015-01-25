@@ -86,7 +86,6 @@
         <!--Create New Event-->
         <scene sceneID="IrQ-Si-su8">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="rkV-3P-pEb" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="qnR-Pm-Dof" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="UWi-od-vV7"/>
@@ -127,6 +126,7 @@
                         <barButtonItem key="rightBarButtonItem" title="Create" id="dbf-Tl-tbo"/>
                     </navigationItem>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rkV-3P-pEb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1487" y="574"/>
         </scene>

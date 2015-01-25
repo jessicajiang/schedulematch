@@ -33,8 +33,8 @@
 }
 
 -(void) login {
-    NSDictionary *input = [NSDictionary dictionary];
-    NSString *latter = [NSString string];
+    NSMutableDictionary *input = [NSMutableDictionary dictionary];
+    NSString *latter = @"/login";
     [input setValue:self.username.text forKey:@"username"];
     [input setValue:self.password.text  forKey:@"password"];
     

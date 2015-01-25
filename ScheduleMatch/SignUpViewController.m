@@ -33,8 +33,8 @@
 }
 
 -(void) signUp {
-    NSDictionary *input = [NSDictionary dictionary];
-    NSString *latter = [NSString string];
+    NSMutableDictionary *input = [NSMutableDictionary dictionary];
+    NSString *latter = @"/signup";
     [input setValue:self.newusername.text forKey:@"username"];
     [input setValue:self.newpassword.text  forKey:@"password"];
     
