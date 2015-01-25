@@ -85,6 +85,8 @@
                 newSchedule.startTimeString = [input objectForKey:@"start"];
                 [[AppCommunication sharedCommunicator].schedulelist addObject:newSchedule];
                 
+                [self performSegueWithIdentifier:@"Back" sender:self];
+                
             }
         });
     }];

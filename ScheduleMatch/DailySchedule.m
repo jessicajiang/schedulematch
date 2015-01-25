@@ -54,6 +54,13 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
     
     cell.textLabel.text = ((Schedule*)[AppCommunication sharedCommunicator].schedulelist[indexPath.row]).title;
+    cell.textLabel.alpha = 0.0;
+    UILabel *startLabel = (UILabel*)[cell viewWithTag:1];
+    startLabel.text = @"9:00AM";
+    UILabel *endLabel = (UILabel*)[cell viewWithTag:2];
+    endLabel.text = @"10:00AM";
+    UILabel *titleLabel = (UILabel*)[cell viewWithTag:3];
+    titleLabel.text = @"Fuck Bitches get money";
     //cell.textLabel.alpha = 0.2;
     //cell.textLabel.backgroundColor = [UIColor magentaColor];
     //clear color
@@ -131,9 +138,11 @@
                     NSDictionary* scheduleDictionary = [fetchedData objectAtIndex:i];
                     
                     Schedule *newSchedule = [[Schedule alloc] init];
-                    
+
                     newSchedule.title = [scheduleDictionary objectForKey:@"title"];
-                    newSchedule.location = [scheduleDictionary objectForKey:@"idk yet"];
+                    newSchedule.location = [scheduleDictionary objectForKey:@"location"];
+                    newSchedule.endTimeString = [scheduleDictionary objectForKey:@"end"];
+                    newSchedule.startTimeString = [scheduleDictionary objectForKey:@"start"];
                     
                     //add this to the array
                     [[AppCommunication sharedCommunicator].schedulelist addObject:newSchedule];
@@ -151,6 +160,7 @@
         });
     }];
 }
+
 
 #pragma mark - Navigation
 
