@@ -9,8 +9,8 @@
 #import <Foundation/Foundation.h>
 
 @interface AppCommunication : NSObject
-
--(void)postRequest:(NSDictionary*) input withCompletion:(void (^)(NSData *, NSURLResponse *, NSError *))completion;
++(instancetype)sharedCommunicator;
+-(void)postRequest:(NSString*)latter withDictionary: (NSDictionary*)input withCompletion:(void (^)(NSData *, NSURLResponse *, NSError *))completion;
 -(void)getRequestWithCompletion:(void (^)(NSData *, NSURLResponse *, NSError *))completion;
 
 @end

@@ -22,10 +22,10 @@ static NSString *const ROOTURL=@"http://perfwect.herokuapp.com";
     return sharedCommunicator;
 }
 
--(void)postRequest:(NSDictionary *)input withCompletion:(void (^)(NSData *, NSURLResponse *, NSError *))completion
+-(void)postRequest:(NSString *)latter withDictionary:(NSDictionary *)input withCompletion:(void (^)(NSData *, NSURLResponse *, NSError *))completion
 {
-    NSString *latterPart = @"/login";
-    NSString *fixedURL = [NSString stringWithFormat:@"%@%@",ROOTURL,latterPart];
+    
+    NSString *fixedURL = [NSString stringWithFormat:@"%@%@",ROOTURL,latter];
     
     NSURL *url = [NSURL URLWithString:fixedURL];
     

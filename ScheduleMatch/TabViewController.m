@@ -7,6 +7,7 @@
 //
 
 #import "TabViewController.h"
+#import "AppCommunication.h"
 
 @interface TabViewController ()
 

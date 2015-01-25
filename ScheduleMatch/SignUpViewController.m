@@ -17,6 +17,9 @@
 @end
 
 @implementation SignUpViewController
+- (IBAction)createAccount:(id)sender {
+    [self signUp];
+}
 
 
 - (void)viewDidLoad {
@@ -31,19 +34,21 @@
 
 -(void) signUp {
     NSDictionary *input = [NSDictionary dictionary];
+    NSString *latter = [NSString string];
     [input setValue:self.newusername.text forKey:@"username"];
     [input setValue:self.newpassword.text  forKey:@"password"];
     
     //putting the lines of code that we want to call inside of the block
     //what do you want the app to do when the network request is done
     /** when you finish uploading note to server, what do you want it to do */
-    /*
-    [[AppCommunication ] postRequest:input withCompletion:^(NSData *data, NSURLResponse *response, NSError *error) {
+    //latter withDictionary:
+    
+    [[AppCommunication sharedCommunicator] postRequest:latter withDictionary:input withCompletion:^(NSData *data, NSURLResponse *response, NSError *error) {
         dispatch_async(dispatch_get_main_queue(), ^{
             NSLog(@"postrequest complete");
         });
     }];
-     */
+    
 }
 
 /*

@@ -18,6 +18,10 @@
 
 @implementation InitialViewController
 
+- (IBAction)loginPressed:(id)sender {
+    [self login];
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
@@ -29,16 +33,23 @@
 }
 
 -(void) login {
-     NSDictionary *input = [NSDictionary dictionary];
-     [input setValue:self.username.text forKey:@"username"];
+    NSDictionary *input = [NSDictionary dictionary];
+    NSString *latter = [NSString string];
+    [input setValue:self.username.text forKey:@"username"];
     [input setValue:self.password.text  forKey:@"password"];
     
     //putting the lines of code that we want to call inside of the block
     //what do you want the app to do when the network request is done
     /** when you finish uploading note to server, what do you want it to do */
-    [[AppCommunication sharedCommunicator] postRequest:input withCompletion:^(NSData *data, NSURLResponse *response, NSError *error) {
+    //[[AppCommunication sharedCommunicator] postRequestWithLatter:latter withDictionary: input withCompletion:^(NSData *data, NSURLResponse *response, NSError *error) {
+        //dispatch_async(dispatch_get_main_queue(), ^{
+            //NSLog(@"Login Complete! :3");
+        //});
+    //}];
+
+    [[AppCommunication sharedCommunicator] postRequest:latter withDictionary:input withCompletion:^(NSData *data, NSURLResponse *response, NSError *error) {
         dispatch_async(dispatch_get_main_queue(), ^{
-            NSLog(@"Uploading Complete! :3");
+            NSLog(@"Login Complete! :3");
         });
     }];
 }
