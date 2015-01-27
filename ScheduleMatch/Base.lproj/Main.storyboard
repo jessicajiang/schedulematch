@@ -373,7 +373,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rkV-3P-pEb" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="a6l-ce-pbZ" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="2409" y="409"/>
+            <point key="canvasLocation" x="1341" y="618"/>
         </scene>
         <!--Home Feed-->
         <scene sceneID="OfU-De-fOz">
@@ -613,12 +613,14 @@
                                     </mask>
                                 </variation>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Welcome!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h7n-Jr-AzK">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h7n-Jr-AzK">
                                 <rect key="frame" x="148" y="72" width="305" height="95"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="305" id="LSN-0Q-AcX"/>
                                     <constraint firstAttribute="width" constant="305" id="PBD-jp-WWy"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="95" id="Ycy-nr-3He"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="95" id="h83-4r-KdM"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="305" id="pEi-XM-qxR"/>
                                     <constraint firstAttribute="height" constant="95" id="zZT-OL-QhP"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
@@ -653,7 +655,9 @@
                             <constraint firstItem="F3W-7o-F9r" firstAttribute="leading" secondItem="B7c-4B-BJy" secondAttribute="leading" id="Cff-nf-lH8"/>
                             <constraint firstAttribute="trailingMargin" secondItem="GNe-UD-3Mh" secondAttribute="trailing" constant="30" id="NYL-Rw-6s7"/>
                             <constraint firstItem="GNe-UD-3Mh" firstAttribute="top" secondItem="cn0-hd-ovd" secondAttribute="bottom" constant="200" id="O6c-bD-V0K"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="h7n-Jr-AzK" secondAttribute="trailing" constant="131" id="TYJ-MG-vsT"/>
                             <constraint firstAttribute="trailingMargin" secondItem="B7c-4B-BJy" secondAttribute="trailing" constant="30" id="UWX-Qh-QqY"/>
+                            <constraint firstItem="h7n-Jr-AzK" firstAttribute="leading" secondItem="x8j-S4-qLZ" secondAttribute="leadingMargin" constant="132" id="UtW-mB-hnm"/>
                             <constraint firstItem="GNe-UD-3Mh" firstAttribute="leading" secondItem="cn0-hd-ovd" secondAttribute="leading" id="Yl7-X6-76K"/>
                             <constraint firstItem="GNe-UD-3Mh" firstAttribute="top" secondItem="MRu-VR-N59" secondAttribute="bottom" constant="200" id="dLI-HJ-afT"/>
                             <constraint firstItem="GNe-UD-3Mh" firstAttribute="top" secondItem="cn0-hd-ovd" secondAttribute="bottom" constant="20" id="eM6-wt-Mhz"/>
@@ -664,6 +668,7 @@
                             <constraint firstItem="cn0-hd-ovd" firstAttribute="top" secondItem="h7n-Jr-AzK" secondAttribute="bottom" constant="8" id="o7P-Ms-9c6"/>
                             <constraint firstItem="NUq-N5-yLs" firstAttribute="top" secondItem="B7c-4B-BJy" secondAttribute="bottom" constant="50" id="qpB-rC-ovk"/>
                             <constraint firstItem="F3W-7o-F9r" firstAttribute="trailing" secondItem="B7c-4B-BJy" secondAttribute="trailing" id="sB7-w8-6zQ"/>
+                            <constraint firstItem="h7n-Jr-AzK" firstAttribute="top" secondItem="MRu-VR-N59" secondAttribute="bottom" constant="52" id="tfj-3D-HeA"/>
                             <constraint firstAttribute="centerX" secondItem="NUq-N5-yLs" secondAttribute="centerX" id="wSr-Oy-2DD"/>
                             <constraint firstItem="B7c-4B-BJy" firstAttribute="leading" secondItem="x8j-S4-qLZ" secondAttribute="leadingMargin" constant="30" id="zD0-YS-akf"/>
                         </constraints>
@@ -749,6 +754,6 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="ywB-dx-aAR"/>
-        <segue reference="eVm-a0-dNE"/>
+        <segue reference="7g9-gN-zB7"/>
     </inferredMetricsTieBreakers>
 </document>
