@@ -10,15 +10,16 @@
 #import "Schedule.h"
 #import "CreateNewViewController.h"
 #import "AppCommunication.h"
+#import "OtherPeopleTableTableViewController.h"
 
-@interface DailySchedule()
+@interface OtherPeopleTableTableViewController()
 {
     int selectedIndex;
 }
 
 @end
 
-@implementation DailySchedule
+@implementation OtherPeopleTableTableViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -34,11 +35,11 @@
 
 
 /*
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-*/
+ - (void)didReceiveMemoryWarning {
+ [super didReceiveMemoryWarning];
+ // Dispose of any resources that can be recreated.
+ }
+ */
 
 #pragma mark - Table view data source
 
@@ -53,7 +54,7 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
     
-//    cell.textLabel.text = ((Schedule*)[AppCommunication sharedCommunicator].schedulelist[indexPath.row]).title;
+    //    cell.textLabel.text = ((Schedule*)[AppCommunication sharedCommunicator].schedulelist[indexPath.row]).title;
     cell.textLabel.alpha = 0.0;
     Schedule *newSchedule = [AppCommunication sharedCommunicator].schedulelist[indexPath.row];
     
@@ -142,7 +143,7 @@
                     NSDictionary* scheduleDictionary = [fetchedData objectAtIndex:i];
                     
                     Schedule *newSchedule = [[Schedule alloc] init];
-
+                    
                     newSchedule.title = [scheduleDictionary objectForKey:@"title"];
                     newSchedule.location = [scheduleDictionary objectForKey:@"location"];
                     newSchedule.endTimeString = [scheduleDictionary objectForKey:@"end"];

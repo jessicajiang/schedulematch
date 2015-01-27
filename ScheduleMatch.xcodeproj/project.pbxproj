@@ -21,6 +21,7 @@
 		3BA96E711A74705F0058A869 /* InitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA96E701A74705F0058A869 /* InitialViewController.m */; };
 		3BA96E741A74732C0058A869 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA96E731A74732C0058A869 /* SignUpViewController.m */; };
 		3BA96E771A747FF80058A869 /* AppCommunication.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA96E761A747FF80058A869 /* AppCommunication.m */; };
+		3BCBF9331A75B49D003D4ED2 /* OtherPeopleTableTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BCBF9321A75B49D003D4ED2 /* OtherPeopleTableTableViewController.m */; };
 		62C4859C1A7462DE00586D41 /* TabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C4859B1A7462DE00586D41 /* TabViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +62,8 @@
 		3BA96E731A74732C0058A869 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
 		3BA96E751A747FF80058A869 /* AppCommunication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppCommunication.h; sourceTree = "<group>"; };
 		3BA96E761A747FF80058A869 /* AppCommunication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppCommunication.m; sourceTree = "<group>"; };
+		3BCBF9311A75B49D003D4ED2 /* OtherPeopleTableTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherPeopleTableTableViewController.h; sourceTree = "<group>"; };
+		3BCBF9321A75B49D003D4ED2 /* OtherPeopleTableTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherPeopleTableTableViewController.m; sourceTree = "<group>"; };
 		62C4859A1A7462DE00586D41 /* TabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabViewController.h; sourceTree = "<group>"; };
 		62C4859B1A7462DE00586D41 /* TabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -117,6 +120,8 @@
 				62C4859A1A7462DE00586D41 /* TabViewController.h */,
 				62C4859B1A7462DE00586D41 /* TabViewController.m */,
 				3BA96E501A7455F50058A869 /* Main.storyboard */,
+				3BCBF9311A75B49D003D4ED2 /* OtherPeopleTableTableViewController.h */,
+				3BCBF9321A75B49D003D4ED2 /* OtherPeopleTableTableViewController.m */,
 				3BA96E6F1A74705F0058A869 /* InitialViewController.h */,
 				3BA96E701A74705F0058A869 /* InitialViewController.m */,
 				3BA96E721A74732C0058A869 /* SignUpViewController.h */,
@@ -267,6 +272,7 @@
 				3BA96E771A747FF80058A869 /* AppCommunication.m in Sources */,
 				3BA96E491A7455F50058A869 /* AppDelegate.m in Sources */,
 				3BA96E741A74732C0058A869 /* SignUpViewController.m in Sources */,
+				3BCBF9331A75B49D003D4ED2 /* OtherPeopleTableTableViewController.m in Sources */,
 				3BA96E461A7455F50058A869 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

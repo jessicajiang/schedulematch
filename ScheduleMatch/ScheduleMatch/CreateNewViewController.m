@@ -60,8 +60,8 @@
     NSMutableDictionary *input = [NSMutableDictionary dictionary];
     [input setValue:self.titleField.text forKey:@"title"];
     [input setValue:self.location.text  forKey:@"location"];
-    [input setValue:self.startTimeString forKey:@"start"];
-    [input setValue:self.endTimeString forKey:@"end"];
+    [input setValue:startTimeString forKey:@"start"];
+    [input setValue:endTimeString forKey:@"end"];
 
     
     [input setValue:[AppCommunication sharedCommunicator].username forKey:@"username"];
