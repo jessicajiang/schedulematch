@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <RWBlurPopover/RWBlurPopover.h>
 
 @interface InitialViewController : UIViewController
 

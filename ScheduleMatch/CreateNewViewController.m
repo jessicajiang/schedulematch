@@ -1,22 +1,21 @@
 //
-//  TabViewController.m
+//  CreateNewViewController.m
 //  ScheduleMatch
 //
-//  Created by sloot on 1/24/15.
+//  Created by Jessica Jiang on 2/3/15.
 //  Copyright (c) 2015 Jessica Jiang. All rights reserved.
 //
 
-#import "TabViewController.h"
+#import "CreateNewViewController.h"
 
-@interface TabViewController ()
+@interface CreateNewViewController ()
 
 @end
 
-@implementation TabViewController
+@implementation CreateNewViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self setSelectedIndex:1];
     // Do any additional setup after loading the view.
 }
 
