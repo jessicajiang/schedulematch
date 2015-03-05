@@ -9,6 +9,7 @@
 #import "InitialViewController.h"
 #import "AppCommunication.h"
 #import "SignUpViewController.h"
+#import "RWBlurPopover.h"
 
 @interface InitialViewController ()
 @property (weak, nonatomic) IBOutlet UITextField *username;

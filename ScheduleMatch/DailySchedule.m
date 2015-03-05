@@ -151,6 +151,8 @@
                     //add this to the array
                     [[AppCommunication sharedCommunicator].schedulelist addObject:newSchedule];
                     
+
+                    
                 }
                 //updating
                 
