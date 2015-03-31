@@ -65,6 +65,15 @@
     UILabel *titleLabel = (UILabel*)[cell viewWithTag:3];
     titleLabel.text = newSchedule.title;
     
+    /*
+    switch {
+    case 0:
+        return "Title";
+    case 1:
+        return "Upvotes";
+    }
+     */
+    
     
     //cell.textLabel.alpha = 0.2;
     //cell.textLabel.backgroundColor = [UIColor magentaColor];
