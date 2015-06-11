@@ -14,6 +14,7 @@
 @interface InitialViewController ()
 @property (weak, nonatomic) IBOutlet UITextField *username;
 @property (weak, nonatomic) IBOutlet UITextField *password;
+@property (weak, nonatomic) IBOutlet UILabel *openingText;
 
 @end
 
@@ -25,12 +26,19 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self fadeaway];
     // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void) fadeaway{
+    [UIView animateWithDuration:2.0 animations:^{
+        self.openingText.alpha = 0.0;
+    }];
 }
 
 -(void) login {

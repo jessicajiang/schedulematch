@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		3B211FB41A74EC8F00BC4AFB /* DailySchedule.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B211FB31A74EC8F00BC4AFB /* DailySchedule.m */; };
 		3B211FB71A74ED1F00BC4AFB /* Schedule.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B211FB61A74ED1F00BC4AFB /* Schedule.m */; };
-		3B7C9E5E1A81F5700097ED4E /* RWBlurPopover.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B7C9E5B1A81F5700097ED4E /* RWBlurPopover.m */; };
-		3B7C9E5F1A81F5700097ED4E /* RWBlurPopoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B7C9E5D1A81F5700097ED4E /* RWBlurPopoverView.m */; };
 		3B7C9E621A81F6C40097ED4E /* CreateNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B7C9E611A81F6C40097ED4E /* CreateNewViewController.m */; };
 		3BA96E461A7455F50058A869 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA96E451A7455F50058A869 /* main.m */; };
 		3BA96E491A7455F50058A869 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA96E481A7455F50058A869 /* AppDelegate.m */; };
@@ -42,10 +40,6 @@
 		3B211FB31A74EC8F00BC4AFB /* DailySchedule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DailySchedule.m; sourceTree = "<group>"; };
 		3B211FB51A74ED1F00BC4AFB /* Schedule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Schedule.h; sourceTree = "<group>"; };
 		3B211FB61A74ED1F00BC4AFB /* Schedule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Schedule.m; sourceTree = "<group>"; };
-		3B7C9E5A1A81F5700097ED4E /* RWBlurPopover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RWBlurPopover.h; path = "../../Reference Code/Pods/RWBlurPopover/RWBlurPopover/RWBlurPopover.h"; sourceTree = "<group>"; };
-		3B7C9E5B1A81F5700097ED4E /* RWBlurPopover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RWBlurPopover.m; path = "../../Reference Code/Pods/RWBlurPopover/RWBlurPopover/RWBlurPopover.m"; sourceTree = "<group>"; };
-		3B7C9E5C1A81F5700097ED4E /* RWBlurPopoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RWBlurPopoverView.h; path = "../../Reference Code/Pods/RWBlurPopover/RWBlurPopover/RWBlurPopoverView.h"; sourceTree = "<group>"; };
-		3B7C9E5D1A81F5700097ED4E /* RWBlurPopoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RWBlurPopoverView.m; path = "../../Reference Code/Pods/RWBlurPopover/RWBlurPopover/RWBlurPopoverView.m"; sourceTree = "<group>"; };
 		3B7C9E601A81F6C40097ED4E /* CreateNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateNewViewController.h; sourceTree = "<group>"; };
 		3B7C9E611A81F6C40097ED4E /* CreateNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateNewViewController.m; sourceTree = "<group>"; };
 		3BA96E401A7455F50058A869 /* ScheduleMatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScheduleMatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -134,10 +128,6 @@
 				3BA96E731A74732C0058A869 /* SignUpViewController.m */,
 				3BA96E6C1A746DDF0058A869 /* SearchControllerViewController.h */,
 				3BA96E6D1A746DDF0058A869 /* SearchControllerViewController.m */,
-				3B7C9E5A1A81F5700097ED4E /* RWBlurPopover.h */,
-				3B7C9E5B1A81F5700097ED4E /* RWBlurPopover.m */,
-				3B7C9E5C1A81F5700097ED4E /* RWBlurPopoverView.h */,
-				3B7C9E5D1A81F5700097ED4E /* RWBlurPopoverView.m */,
 				3BA96E531A7455F50058A869 /* Images.xcassets */,
 				3BA96E551A7455F50058A869 /* LaunchScreen.xib */,
 				3BA96E4A1A7455F50058A869 /* ScheduleMatch.xcdatamodeld */,
@@ -272,9 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B7C9E5F1A81F5700097ED4E /* RWBlurPopoverView.m in Sources */,
 				3B211FB71A74ED1F00BC4AFB /* Schedule.m in Sources */,
-				3B7C9E5E1A81F5700097ED4E /* RWBlurPopover.m in Sources */,
 				3B7C9E621A81F6C40097ED4E /* CreateNewViewController.m in Sources */,
 				62C4859C1A7462DE00586D41 /* TabViewController.m in Sources */,
 				3BA96E6E1A746DDF0058A869 /* SearchControllerViewController.m in Sources */,
