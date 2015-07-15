@@ -168,7 +168,7 @@
                                             <color key="textColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" tag="3" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Text Here" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5v1-as-oc5">
+                                        <label opaque="NO" userInteractionEnabled="NO" tag="3" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Activity Today" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5v1-as-oc5">
                                             <rect key="frame" x="150" y="32.5" width="300" height="50"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="300" id="NEQ-iK-2JL"/>
@@ -208,6 +208,7 @@
                     </tableView>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="My Schedule" id="md8-EY-wFj">
+                        <barButtonItem key="leftBarButtonItem" title="Options" id="UY3-SE-ZhR"/>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="zfs-XM-TgZ">
                             <connections>
                                 <segue destination="qnR-Pm-Dof" kind="show" id="gpj-mM-MaQ"/>
@@ -880,7 +881,7 @@
         <image name="leaves" width="1024" height="768"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="eVm-a0-dNE"/>
+        <segue reference="7g9-gN-zB7"/>
         <segue reference="l2X-j0-Osv"/>
     </inferredMetricsTieBreakers>
 </document>
