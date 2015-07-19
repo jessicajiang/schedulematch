@@ -135,7 +135,7 @@
                                         <constraint firstAttribute="bottomMargin" secondItem="nQm-XI-U9a" secondAttribute="bottom" constant="5" id="Tzd-Ge-k2d"/>
                                     </constraints>
                                 </tableViewCellContentView>
-                                <color key="backgroundColor" red="1" green="0.87567065550000001" blue="0.93555874080000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </tableViewCell>
                         </prototypes>
                         <connections>
